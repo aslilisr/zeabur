@@ -1,0 +1,17 @@
+{
+  "name": "my-websocket-server",
+  "version": "1.0.0",
+  "description": "A WebSocket to TCP proxy server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "net": "^1.0.2",
+    "ws": "^8.5.0",
+    "http": "^0.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
